@@ -1,0 +1,20 @@
+﻿  main.cpp
+  OpenSSLRSA.cpp
+  正在生成代码...
+C:\Users\wzsoft\Desktop\OpenSSL_RSA\OpenSSLRSA.cpp(62,30): warning C4267:  “初始化”: 从“size_t”转换到“int”，可能丢失数据
+OpenSSLRSA.obj : error LNK2019: 无法解析的外部符号 ERR_load_CRYPTO_strings，该符号在函数 "private: void __cdecl OpenSSLRSA::initalize(void)" (?initalize@OpenSSLRSA@@AEAAXXZ) 中被引用
+OpenSSLRSA.obj : error LNK2019: 无法解析的外部符号 BIO_set_flags，该符号在函数 "public: struct rsa_st * __cdecl OpenSSLRSA::getPrivateKey(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?getPrivateKey@OpenSSLRSA@@QEAAPEAUrsa_st@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中被引用
+OpenSSLRSA.obj : error LNK2019: 无法解析的外部符号 BIO_free，该符号在函数 "public: struct rsa_st * __cdecl OpenSSLRSA::getPrivateKey(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?getPrivateKey@OpenSSLRSA@@QEAAPEAUrsa_st@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中被引用
+OpenSSLRSA.obj : error LNK2019: 无法解析的外部符号 BIO_new_mem_buf，该符号在函数 "public: struct rsa_st * __cdecl OpenSSLRSA::getPrivateKey(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?getPrivateKey@OpenSSLRSA@@QEAAPEAUrsa_st@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中被引用
+OpenSSLRSA.obj : error LNK2019: 无法解析的外部符号 RSA_size，该符号在函数 "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl OpenSSLRSA::decryptRSA(struct rsa_st *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?decryptRSA@OpenSSLRSA@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUrsa_st@@V23@@Z) 中被引用
+OpenSSLRSA.obj : error LNK2019: 无法解析的外部符号 RSA_public_encrypt，该符号在函数 "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl OpenSSLRSA::encryptRSA(struct rsa_st *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?encryptRSA@OpenSSLRSA@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUrsa_st@@V23@@Z) 中被引用
+OpenSSLRSA.obj : error LNK2019: 无法解析的外部符号 RSA_private_decrypt，该符号在函数 "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl OpenSSLRSA::decryptRSA(struct rsa_st *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?decryptRSA@OpenSSLRSA@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUrsa_st@@V23@@Z) 中被引用
+OpenSSLRSA.obj : error LNK2019: 无法解析的外部符号 ERR_free_strings，该符号在函数 "private: void __cdecl OpenSSLRSA::finalize(void)" (?finalize@OpenSSLRSA@@AEAAXXZ) 中被引用
+OpenSSLRSA.obj : error LNK2019: 无法解析的外部符号 OPENSSL_add_all_algorithms_noconf，该符号在函数 "private: void __cdecl OpenSSLRSA::initalize(void)" (?initalize@OpenSSLRSA@@AEAAXXZ) 中被引用
+OpenSSLRSA.obj : error LNK2019: 无法解析的外部符号 EVP_cleanup，该符号在函数 "private: void __cdecl OpenSSLRSA::finalize(void)" (?finalize@OpenSSLRSA@@AEAAXXZ) 中被引用
+OpenSSLRSA.obj : error LNK2019: 无法解析的外部符号 PEM_read_bio_RSAPrivateKey，该符号在函数 "public: struct rsa_st * __cdecl OpenSSLRSA::getPrivateKey(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?getPrivateKey@OpenSSLRSA@@QEAAPEAUrsa_st@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中被引用
+OpenSSLRSA.obj : error LNK2019: 无法解析的外部符号 PEM_read_bio_RSA_PUBKEY，该符号在函数 "public: struct rsa_st * __cdecl OpenSSLRSA::getPublicKey(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?getPublicKey@OpenSSLRSA@@QEAAPEAUrsa_st@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中被引用
+OpenSSLRSA.obj : error LNK2019: 无法解析的外部符号 OPENSSL_config，该符号在函数 "private: void __cdecl OpenSSLRSA::initalize(void)" (?initalize@OpenSSLRSA@@AEAAXXZ) 中被引用
+C:\openssl-1.0.2r\lib\libeay32.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+C:\openssl-1.0.2r\lib\ssleay32.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+C:\Users\wzsoft\Desktop\OpenSSL_RSA\x64\Debug\OpenSSL_RSA.exe : fatal error LNK1120: 13 个无法解析的外部命令
